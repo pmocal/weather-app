@@ -4,7 +4,7 @@ const GIPHYAPIKEY = "JPATCxkiYzTOAR7667lKYr7ZmxWKQdaD";
 
 function getWeatherObject(city) {
 
-	fetch("http://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=imperial" + "&APPID=" + WEATHERAPIKEY, {mode: 'cors'})
+	fetch("https://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=imperial" + "&APPID=" + WEATHERAPIKEY, {mode: 'cors'})
     .then(function(response) {
       return response.json();
     })

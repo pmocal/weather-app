@@ -1,0 +1,19 @@
+body {
+	background-color: silver;
+	font-family: 'Gayathri', sans-serif;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+body div {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+input {
+	width: 33%;
+	font-size: 0.8em;
+	color: teal;
+}

@@ -8,7 +8,8 @@
 	},
 	"dependencies": {
 		"@pmocal/giphy": "^3.5.0",
-		"browserify": "latest"
+		"browserify": "latest",
+		"nconf": "^0.10.0"
 	},
 	"author": "",
 	"license": "ISC"

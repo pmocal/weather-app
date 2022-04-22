@@ -9,7 +9,7 @@
 	"dependencies": {
 		"@pmocal/giphy": "^3.5.0",
 		"browserify": "latest",
-		"nconf": "^0.10.0"
+		"nconf": "^0.11.4"
 	},
 	"author": "",
 	"license": "ISC"
